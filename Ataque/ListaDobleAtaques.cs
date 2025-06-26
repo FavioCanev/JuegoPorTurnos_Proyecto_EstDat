@@ -61,6 +61,7 @@ namespace Ataque
 
         public void agregarAtaques()
         {
+            //ataques del jugador
             agregar(new Ataque { nombre = "Espada del Caído", dano = 22 });
             agregar(new Ataque { nombre = "Lanza del Abismo", dano = 18 });
             agregar(new Ataque { nombre = "Fuego Caótico", dano = 25 });
@@ -73,6 +74,9 @@ namespace Ataque
             agregar(new Ataque { nombre = "Explosión Profanada", dano = 23 });
             agregar(new Ataque { nombre = "Zarpazo de Manus", dano = 21 });
             agregar(new Ataque { nombre = "Daga de Carthus", dano = 17 });
+
+
+            //ataques de enemigos
             agregar(new Ataque { nombre = "Martillo de Havel", dano = 32 });
             agregar(new Ataque { nombre = "Espina de Priscilla", dano = 20 });
             agregar(new Ataque { nombre = "Llamarada del Vacío", dano = 27 });
